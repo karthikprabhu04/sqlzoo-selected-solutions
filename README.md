@@ -1,6 +1,7 @@
 # sqlzoo-selected-solutions
 
-Self Join Question 10 (https://sqlzoo.net/wiki/Self_join)
+Self Join Question 10 (https://sqlzoo.net/wiki/Self_join) - quite a difficult problem involving 2 joins. Here's the solution I found, feel free try the problem for yourself before looking at this!
+
 
 SELECT t2.num, t2.company, t1.name, t1.num, t1.company FROM
 (SELECT DISTINCT stopc.name, c.num, c.company
